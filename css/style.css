@@ -42,6 +42,9 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 }
+.intro__titulo {
+	font-size: 1.9rem;
+}
 .intro__texto {
 	display: flex;
 	flex-direction: column;
@@ -50,26 +53,32 @@ body {
 }
 .intro__parrafo {
 	margin: 5px auto;
+	font-size: 1.1rem;
 }
 .intro__social-links ul {
 	display: flex;
 	justify-content: space-around;
+	justify-content: flex-start;
 	flex-wrap: nowrap;
-	width: 100%;
 }
 .intro__social-links ul li {
 	list-style: none;
 	font-size: small;
+	flex-wrap: nowrap;
 }
 .intro__social-links ul li a {
 	font-size: 0.9rem;
-	padding: 0 20px;
+	padding: 0 10px;
+	flex-wrap: nowrap;
 	color: var(--black);
 	transition: all 0.1s ease;
+	display: block;
 }
+
 .intro__social-links ul li a:hover {
 	color: var(--coffe);
 	text-decoration: underline;
 }
 .intro__arrow-img {
+	width: 9px;
 }
