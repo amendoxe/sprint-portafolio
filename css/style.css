@@ -35,3 +35,11 @@ body {
 	text-align: center;
 	font-size: 1.6rem;
 }
+img {
+	max-width: 100%;
+}
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+}
