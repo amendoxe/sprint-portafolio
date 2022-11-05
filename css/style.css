@@ -13,7 +13,7 @@
 :root {
 	--black: #171321;
 	--dkblue: #247ba0;
-	--coffe: #a18276;
+	--coffee: #493e3a;
 	--lgblue: #5eb3fd;
 	--green: #95e5b7;
 	--dkgreen: #8ce3b0;
@@ -29,4 +29,13 @@ body {
 	color: var(--black);
 	margin: 0px;
 	padding: 0px;
+}
+.sobre-mi {
+	padding: 10%;
+	/* background-color: var(--dkgreen); */
+	background-color: var(--dkgreen2);
+}
+.sobre-mi__header {
+	font-size: 1.6rem;
+	padding: 10px;
 }
