@@ -30,18 +30,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-.skills {
-	margin: 2rem auto;
-}
 .sub__header {
 	margin: 1rem auto;
 	text-align: center;
 	font-size: 1.6rem;
-}
-.skills ul {
-	display: flex;
-	justify-content: space-evenly;
-}
-.skills__image {
-	border-radius: 20%;
 }
