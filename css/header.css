@@ -1,0 +1,42 @@
+.header__name-logo {
+	padding: 2px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1.2rem;
+	width: 15%;
+}
+.header__logo {
+	width: 1.2rem;
+	height: 100%;
+	margin-right: 5px;
+	color: var(--black);
+}
+.header_name {
+	height: auto 0;
+}
+header {
+	background-color: var(--dkgreen2);
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+nav ul {
+	display: flex;
+	justify-content: space-a;
+	width: 100%;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a {
+	font-size: 0.9rem;
+	padding: 0 20px;
+	color: var(--black);
+	transition: all 0.1s ease;
+}
+nav ul li a:hover {
+	color: var(--coffe);
+	text-decoration: underline;
+}
