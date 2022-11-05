@@ -30,12 +30,3 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-.sobre-mi {
-	padding: 10%;
-	/* background-color: var(--dkgreen); */
-	background-color: var(--dkgreen2);
-}
-.sobre-mi__header {
-	font-size: 1.6rem;
-	padding: 10px;
-}
