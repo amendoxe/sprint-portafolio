@@ -38,8 +38,45 @@ body {
 img {
 	max-width: 100%;
 }
-.container {
+.formacion {
+	margin: 2rem 4rem;
+}
+
+.parent {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-between;
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	place-self: center;
+}
+
+.div1 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+	grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+.div5 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.div6 {
+	grid-area: 2 / 3 / 3 / 4;
+}
+.div4,
+.div5,
+.div6 {
+	text-align: center;
+}
+.div1,
+.div2,
+.div3 {
+	text-align: center;
 }
