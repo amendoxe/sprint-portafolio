@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/sobre-mi.css" />
 		<link rel="stylesheet" href="css/skills-hobbies.css" />
 		<link rel="stylesheet" href="css/formacion.css" />
-		nk
+
 		<title>Portafolio</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -133,10 +133,9 @@
 					<li><img src="" alt="" /></li>
 				</ul>
 			</section>
-			<!-- TODO  -->
+
 			<section class="formacion">
 				<h2 class="sub__header">Formación académica</h2>
-				<!-- COMMENT Aqui vamos a poner los divs -->
 
 				<div class="parent">
 					<div class="div1">
@@ -159,14 +158,48 @@
 			</section>
 
 			<section class="contacto">
-				<h2 class="sub__header">Contacto</h2>
-				<div class="contacto__forma">
-					<img src="assets/img/telefono.pn" g alt="" />
+				<div class="contacto__flex">
+					<img src="assets/img/telefono.png" alt="teléfono" class="contacto__img" />
+					<form>
+						<h2 class="sub__header">Contacto</h2>
+						<h3 class="contacto__text">
+							¿Quieres contactarme?<br />Completa este siguiente formulario y me pondré en contacto con
+							usted lo antes posible.
+						</h3>
+
+						<!-- FIXME   -->
+
+						<div class="contacto__group">
+							<input type="text" class="contacto__input" id="nombre" required />
+							<label for="nombre" class="contacto__label">Nombre</label>
+						</div>
+
+						<div class="contacto__group">
+							<input type="email" class="contacto__input" id="e-mail" required />
+							<label for="e-mail" class="contacto__label">E-mail</label>
+						</div>
+
+						<div class="contacto__group">
+							<input type="text" class="contacto__input" id="asunto" required />
+							<label for="asunto" class="contacto__label">Asunto</label>
+						</div>
+						<div class="contacto__group">
+							<input type="text" class="contacto__input" id="mensaje" required />
+							<label for="mensaje" class="contacto__label">Mensaje</label>
+
+							<!-- <textarea name="mensajeArea" cols="40" rows="5" class="contacto__input"></textarea>
+							<label for="mensajeArea" class="contacto__label">Mensaje</label> -->
+						</div>
+						<!-- <div class="contacto-btn">
+							<a href="#" class="btn">Enviar mensaje</a>
+						</div> -->
+						<button class="contacto-btn">Enviar mensaje</button>
+					</form>
 				</div>
 			</section>
 			<img src="" alt="" />
 		</main>
 
-		<footer></footer>
+		<footer>Hi there</footer>
 	</body>
 </html>
