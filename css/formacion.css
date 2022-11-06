@@ -1,7 +1,8 @@
 .formacion {
 	margin: 0;
 	background-color: var(--dkgreen2);
-	padding: 20px;
+	padding: 10px;
+	height: 50vh;
 }
 
 .parent {
@@ -36,6 +37,7 @@
 .div5,
 .div6 {
 	text-align: center;
+	height: fit-content;
 }
 .div1,
 .div2,
