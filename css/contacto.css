@@ -1,6 +1,11 @@
 .contacto {
 	background-color: var(--dkgreen2);
 	margin: -1px auto;
+	background: rgba(122, 185, 149, 0.68);
+	box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(4.5px);
+	-webkit-backdrop-filter: blur(4.5px);
+	border-radius: 10px;
 }
 .contacto__flex {
 	display: flex;

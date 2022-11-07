@@ -23,9 +23,11 @@
 	--font-size: 1.3rem;
 	--mono: "Oxygen mono", monospace;
 	--sans: Raleway, sans-serif;
+	--backop: #e84855;
 }
 body {
-	background-color: var(--dkgreen);
+	/* background-color: var(--dkgreen); */
+	background-color: #b6a39e;
 	font-family: var(--sans);
 	color: var(--black);
 	margin: 0px;

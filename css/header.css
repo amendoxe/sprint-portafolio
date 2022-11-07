@@ -17,7 +17,7 @@
 	height: auto 0;
 }
 header {
-	background-color: var(--dkgreen);
+	/* background-color: var(--dkgreen); */
 
 	display: flex;
 	justify-content: space-around;

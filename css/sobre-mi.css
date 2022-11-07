@@ -1,7 +1,12 @@
 .sobre-mi {
 	padding: 10%;
-	/* background-color: var(--dkgreen); */
 	background-color: var(--dkgreen2);
+
+	background: rgba(122, 185, 149, 0.65);
+	box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(4.5px);
+	-webkit-backdrop-filter: blur(4.5px);
+	border-radius: 10px;
 }
 .sobre-mi__header {
 	font-size: 1.6rem;
@@ -10,6 +15,9 @@
 .sobre-mi__text {
 	width: 70vw;
 	margin: 2px auto;
+}
+.sobre-mi__text p {
+	text-align: justify;
 }
 @media screen and (max-width: 400px) {
 	.sobre-mi__header {

@@ -1,11 +1,12 @@
 .intro {
-	background-color: var(--dkgreen);
+	/* background-color: var(--dkgreen); */
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 2% 8%;
-	margin: 4px auto;
-	width: 60vw;
+	padding-left: 15%;
+	padding-right: 15%;
+	/* margin: 4px auto; */
+	/* width: 60vw; */
 }
 .intro__img {
 	/* border-radius: 100px;
@@ -32,12 +33,14 @@
 }
 .intro__titulo {
 	font-size: 1.9rem;
+	text-align: justify;
 }
 .intro__texto {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
+	text-align: justify;
 }
 .intro__parrafo {
 	margin: 5px auto;
