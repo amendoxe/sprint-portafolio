@@ -116,3 +116,19 @@
 	width: 100%;
 	background: var(--dkblue);
 }
+@media screen and (max-width: 800px) {
+	.experiencia__right {
+		flex-direction: column;
+		margin-top: 2rem;
+	}
+	.experiencia__left {
+		flex-direction: column-reverse;
+		margin-top: 2rem;
+	}
+	.experiencia__img {
+		width: 80vw;
+	}
+	.experiencia__img-calc {
+		width: 40vw;
+	}
+}
