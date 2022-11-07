@@ -41,7 +41,8 @@ img {
 }
 .experiencia {
 	margin: 0;
-	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: antiquewhite;
 	margin-top: -22px;
 }
