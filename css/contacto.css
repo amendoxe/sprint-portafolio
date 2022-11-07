@@ -27,7 +27,7 @@ form {
 	display: block;
 	font-size: 16px;
 	width: 98%;
-	background: #d5d4cf;
+	background: #fff;
 	color: #000;
 	margin-bottom: 10px;
 	padding: 15px;
@@ -48,10 +48,10 @@ form {
 	position: absolute;
 	top: 15px;
 	left: 10px;
-	width: 15%;
+	width: 4rem;
 	border-radius: 3px;
 	color: #777;
-	background-color: #d5d4cf;
+	background-color: #fff;
 	font-size: 16px;
 	font-weight: bold;
 	padding: 3px;
@@ -70,19 +70,19 @@ form {
 	font-size: 15px;
 	font-weight: bold;
 	text-decoration: none;
-	background-color: var(--green);
+	background-color: #fff;
 	padding: 12px 40px;
 	border-radius: 3px;
-	border: 1px solid transparent;
+	border: 2px solid var(--dkblue);
 	color: var(--dkblue);
 	transition: all 0.2s;
 }
 
 .contacto-btn:hover {
 	background: transparent;
-	color: var(--lgblue);
+	color: #fff;
 	background-color: var(--dkblue);
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 .btn {

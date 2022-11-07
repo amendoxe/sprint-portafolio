@@ -71,4 +71,7 @@
 	width: 9px;
 }
 @media screen and (max-width: 800px) {
+	.intro {
+		width: 80vw;
+	}
 }
