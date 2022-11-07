@@ -91,3 +91,25 @@ form {
 .btn:hover {
 	color: var(--lgblue);
 }
+@media screen and (max-width: 800px) {
+	.contacto__img {
+		display: none;
+	}
+	.contacto {
+		width: 90vw;
+	}
+	.contacto__group {
+		text-align: center;
+		margin-top: 30px;
+		margin-left: 1rem;
+	}
+	form {
+		padding: 0;
+	}
+	.contacto__input {
+		width: 80vw;
+	}
+	.contacto__text {
+		margin-left: 1rem;
+	}
+}
