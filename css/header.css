@@ -41,3 +41,8 @@ nav ul li a:hover {
 	color: var(--coffe);
 	text-decoration: underline;
 }
+@media screen and (max-width: 800px) {
+	nav ul li:not(:last-child) {
+		display: none;
+	}
+}
