@@ -33,12 +33,12 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#">Sobre mi</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Hobbies</a></li>
-					<li><a href="#">Formación</a></li>
-					<li><a href="#">Proyectos</a></li>
-					<li><a href="#">contacto something@mail.com</a></li>
+					<li><a href="#sobre-mi">Sobre mi</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#hobbies">Hobbies</a></li>
+					<li><a href="#formacion">Formación</a></li>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#contacto">contacto mailto:magro@mailsire.com</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -100,7 +100,7 @@
 				</div>
 			</section>
 
-			<section class="sobre-mi">
+			<section class="sobre-mi" id="sobre-mi">
 				<h2 class="sobre-mi__header">Sobre mi</h2>
 				<p>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sit, eveniet ipsa est velit odio
@@ -115,7 +115,7 @@
 				</p>
 			</section>
 
-			<section class="skills">
+			<section class="skills" id="skills">
 				<h2 class="sub__header">Skills</h2>
 				<ul>
 					<li><img src="assets/skills/css.svg" alt="css image" class="skills__image" /></li>
@@ -125,7 +125,7 @@
 				</ul>
 			</section>
 
-			<section class="skills">
+			<section class="skills" id="hobbies">
 				<h2 class="sub__header">Hobbies</h2>
 				<ul>
 					<li><img src="assets/Hobbies/leer.svg" alt="hobbie leer" class="skills__image" /></li>
@@ -137,7 +137,7 @@
 				</ul>
 			</section>
 
-			<section class="formacion">
+			<section class="formacion" id="formacion">
 				<h2 class="sub__header">Formación académica</h2>
 
 				<div class="parent">
@@ -156,34 +156,83 @@
 				</div>
 			</section>
 
-			<section class="experiencia">
-				<h2 class="sub__header">Experiencia Profesional</h2>
+			<section class="experiencia" id="proyectos">
+				<h2 class="sub__header">Experiencia</h2>
 				<div class="experiencia__right">
 					<div class="experiencia__img-con">
-						<h3 class="experiencia__img-title">Código secreto</h3>
-						<img src="" alt="" class="experiencia__img" />
+						<h3 class="experiencia__img-title">Código secreto 😯</h3>
+						<img src="assets/experiencia/encriptador.gif" alt="" class="experiencia__img" />
 					</div>
-					<div class="experiencia__txt-con">
+					<div class="experiencia__txt-con-r">
 						<h3 class="experiencia__txt-title">Código secreto</h3>
 						<p>Challenge Alura</p>
-						<a href="#"><button class="experiencia__repo">Repositorio</button></a>
-						<a href="#"><button class="experiencia__demo">Ver demo</button></a>
+						<a href="https://github.com/amendoxe/encriptador_challenge"
+							><button class="experiencia__repo">Repositorio</button></a
+						>
+						<a href="https://amendoxe.github.io/encriptador_challenge/"
+							><button class="experiencia__demo">Ver demo</button></a
+						>
 					</div>
 				</div>
-				<div class="experiencia__left"></div>
+				<div class="experiencia__left">
+					<div class="experiencia__txt-con-l">
+						<h3 class="experiencia__txt-title">Juego ahorcado</h3>
+						<p>Challenge Alura</p>
+						<a href="https://github.com/amendoxe/Challenge2-ONE"
+							><button class="experiencia__repo">Repositorio</button></a
+						>
+						<a href="https://amendoxe.github.io/Challenge2-ONE/"
+							><button class="experiencia__demo">Ver demo</button></a
+						>
+					</div>
+					<div class="experiencia__img-con">
+						<h3 class="experiencia__img-title">Juego ahorcado</h3>
+						<img src="assets/experiencia/juegoA.gif" alt="" class="experiencia__img" />
+					</div>
+				</div>
+				<div class="experiencia__right">
+					<div class="experiencia__img-con">
+						<h3 class="experiencia__img-title">Calculadora</h3>
+						<img src="assets/experiencia/calculadora.png" alt="" class="experiencia__img-calc" />
+					</div>
+					<div class="experiencia__txt-con-r">
+						<h3 class="experiencia__txt-title">Calculadora</h3>
+						<p>Front end Masters, calculadora sin decimales</p>
+						<a href="https://github.com/amendoxe/calculadora-fem"
+							><button class="experiencia__repo">Repositorio</button></a
+						>
+						<a href="https://amendoxe.github.io/calculadora-fem/"
+							><button class="experiencia__demo">Ver demo</button></a
+						>
+					</div>
+				</div>
+				<div class="experiencia__left">
+					<div class="experiencia__txt-con-l">
+						<h3 class="experiencia__txt-title">Flexbox</h3>
+						<p>Front end Masters, introducción</p>
+						<a href="https://github.com/amendoxe/m-intro-to-webdev-flex-box"
+							><button class="experiencia__repo">Repositorio</button></a
+						>
+						<a href="https://amendoxe.github.io/m-intro-to-webdev-flex-box/"
+							><button class="experiencia__demo">Ver demo</button></a
+						>
+					</div>
+					<div class="experiencia__img-con">
+						<h3 class="experiencia__img-title">Noticias flexbox</h3>
+						<img src="assets/experiencia/flexbox.png" alt="" class="experiencia__img" />
+					</div>
+				</div>
 			</section>
 
-			<section class="contacto">
+			<section class="contacto" id="contacto">
 				<div class="contacto__flex">
 					<img src="assets/img/telefono.png" alt="teléfono" class="contacto__img" />
-					<form>
+					<form action="mailto:magro@mailsire.com">
 						<h2 class="sub__header">Contacto</h2>
 						<h3 class="contacto__text">
 							¿Quieres contactarme?<br />Completa este siguiente formulario y me pondré en contacto con
 							usted lo antes posible.
 						</h3>
-
-						<!-- FIXME   -->
 
 						<div class="contacto__group">
 							<input type="text" class="contacto__input" id="nombre" required />

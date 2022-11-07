@@ -1,6 +1,6 @@
 .contacto {
 	background-color: var(--dkgreen2);
-	margin: 10px auto;
+	margin: -1px auto;
 }
 .contacto__flex {
 	display: flex;
