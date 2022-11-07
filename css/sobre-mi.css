@@ -7,6 +7,10 @@
 	font-size: 1.6rem;
 	padding: 10px;
 }
+.sobre-mi__text {
+	width: 70vw;
+	margin: 2px auto;
+}
 @media screen and (max-width: 400px) {
 	.sobre-mi__header {
 		font-size: 1.2rem;

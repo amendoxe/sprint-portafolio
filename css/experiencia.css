@@ -134,11 +134,11 @@
 	.experiencia__img-calc {
 		width: 40vw;
 	}
-}
-@media screen and (max-width: 400px) {
+	.experiencia p {
+		text-align: center;
+	}
 	.experiencia__txt-con-r {
 		width: 60vw;
-		/* margin-left: 28vw; */
 		margin-left: auto;
 		margin-right: auto;
 
@@ -146,7 +146,21 @@
 	}
 	.experiencia__txt-con-l {
 		width: 60vw;
-		/* margin-right: 28vw; */
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 400px) {
+	.experiencia__txt-con-r {
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+
+		text-align: center;
+	}
+	.experiencia__txt-con-l {
+		width: 60vw;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
