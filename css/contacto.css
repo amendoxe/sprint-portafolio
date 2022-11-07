@@ -113,3 +113,23 @@ form {
 		margin-left: 1rem;
 	}
 }
+@media screen and (max-width: 400px) {
+	.contacto {
+		width: 90vw;
+		text-align: center;
+	}
+	.contacto__group {
+		text-align: center;
+		margin-top: 30px;
+		margin-left: 0rem;
+	}
+	form {
+		padding: 0;
+	}
+	.contacto__input {
+		width: 83vw;
+	}
+	.contacto__text {
+		margin-left: 0rem;
+	}
+}

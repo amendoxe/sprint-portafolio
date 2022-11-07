@@ -39,3 +39,11 @@ body {
 img {
 	max-width: 100%;
 }
+
+@media screen and (max-width: 400px) {
+	.sub__header {
+		margin: 1.4rem auto;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+}

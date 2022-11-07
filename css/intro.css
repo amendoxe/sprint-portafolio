@@ -75,3 +75,17 @@
 		width: 80vw;
 	}
 }
+@media screen and (max-width: 400px) {
+	.bloque-flex {
+		flex-direction: column-reverse;
+	}
+	.intro__img {
+		margin-left: 0;
+	}
+	.intro__titulo {
+		font-size: 1.4rem;
+	}
+	.intro__texto {
+		font-size: 1rem;
+	}
+}
