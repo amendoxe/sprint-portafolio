@@ -36,6 +36,9 @@ body {
 	text-align: center;
 	font-size: 1.6rem;
 }
+.intro__img {
+	border-radius: 70vw;
+}
 img {
 	max-width: 100%;
 }
